@@ -11,3 +11,8 @@ FrontEnd
 ReactJS, aplicação de página única
 Elementos com html e css
 Geolocalização
+
+Mobile
+React Native, Expo
+Mapas com MapView
+busca de dados do banco
