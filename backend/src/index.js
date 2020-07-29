@@ -1,9 +1,15 @@
 const express = require('express')
 const mongoose = require('mongoose');
 const cors = require('cors')
+const http = require('http')
+
 const routes = require('./routes')
+const { setupWebsocket } = require('./websocket')
 
 const app = express()
+const server = http.Server(app)
+
+setupWebsocket(server)
 
 mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack.ycdjk.mongodb.net/semana10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
@@ -14,4 +20,4 @@ app.use(cors()) //libera acesso externo para todo tipo de aplicação
 app.use(express.json())
 app.use(routes) //usa rotas criadas em routes.js
 
-app.listen(3333)
+server.listen(3333)
