@@ -3,8 +3,8 @@
  O DevRadar é um projeto que visa facilitar o contato entre desenvolvedores próximos a você e que utilizam as mesmas tecnologias. A aplicação web realiza o cadastro de desenvolvedores a partir do nome de usuário do github, tecnologias e localização geográfica. O app mobile detecta sua localização geográfica e exibe um mapa onde é possível fazer a buscar desenvolvedores por tecnologia dentro de um raio de 10KM da sua localização atual.
 
 <p align="center">
-  <p><img src=".github/mobile.png" alt="Mobile" width="165" border="0">
-  <img src=".github/web.png" alt="Web" width="700" border="0"></p>
+  <p><img align="center" src=".github/mobile.png" alt="Mobile" width="275" border="0"></p>
+  <p><img align="center" src=".github/web.png" alt="Web" width="800" border="0"></p>
 </p>
 
 # Funcionalidades
